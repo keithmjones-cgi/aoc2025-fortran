@@ -50,6 +50,8 @@ subroutine run_day(day, test)
         call day1(test)
     else if (day .eq. 2) then
         call day2(test)
+    else if (day .eq. 3) then
+        call day3(test)
     end if
 
 end subroutine run_day
